@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Selectors</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<h2 class="title">This is a Heading</h2>
+<p id="para">This is a paragraph</p>
+<button id="btn">Apply Styles</button>
+
+<script>
+$(document).ready(function () {
+    $("#btn").click(function () {
+        $(".title").css("color", "blue");   // Class selector
+        $("#para").css("color", "green");   // ID selector
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    font-size: 16px;
+}
